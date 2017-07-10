@@ -1,4 +1,4 @@
-FROM bitnami/minideb:jessie
+FROM linarotechnologies/minideb:stretch
 
 RUN install_packages stm32flash ser2net
 
